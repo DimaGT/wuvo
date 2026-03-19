@@ -31,9 +31,13 @@
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 1px;
-  color: var(--accent);
+  color: var(--text);
   text-decoration: none;
   flex-shrink: 0;
+}
+.app-logo span {
+  color: var(--accent);
+  font-weight: 700;
 }
 .app-logo:hover {
   color: var(--text);

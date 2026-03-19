@@ -27,7 +27,7 @@ export function AppLayout({ children }) {
       <header className="app-header">
         <div className="app-header-inner">
           <Link href="/dashboard" className="app-logo">
-            Wuvo
+            W<span>UVO</span>
           </Link>
           <nav className="app-nav">
             {NAV_ITEMS.map(({ path, label }) => (

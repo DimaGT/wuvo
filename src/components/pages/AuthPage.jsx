@@ -114,7 +114,7 @@ export function AuthPage() {
             </svg>
             Continue with Google
           </button>
-          <button className="btn-demo" onClick={handleDemo}>Try Demo — No Account Needed →</button>
+          {/* <button className="btn-demo" onClick={handleDemo}>Try Demo — No Account Needed →</button> */}
         </motion.div>
         <p className="auth-footer">
           By continuing, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.<br />Wuvo provides AI-powered wellness insights, not medical advice.
